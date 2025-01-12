@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    user-select: none;
+}
+
+.github, 
+.html,
+.react,
+.javascript,
+.typescript,
+.figma,
+.ux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Gör att barnen staplas vertikalt */
+    padding: 2rem;
+    border-radius: 10px;
+    margin: auto;
+    width: 100px; /* Bredd för att centrera innehållet snyggt */
+    height: auto;
+    text-align: center;
+}
+
+.github-content {
+    display: flex;
+    flex-direction: column; /* Stapla bild och text vertikalt */
+    align-items: center; /* Centrera innehållet horisontellt */
+}
+
+.github-img, 
+.html-img,
+.react-img,
+.javascript-img,
+.typescript-img,
+.figma-img,
+.ux-img {
+    width: 70px;
+    height: 70px;
+    user-select: none;
+}
+
+.github-text,
+.html-text,
+.react-text,
+.javascript-text,
+.typescript-text,
+.figma-text,
+.ux-text {
+    margin-top: 10px;
+    font-size: 20px; 
+    color: black;
+}

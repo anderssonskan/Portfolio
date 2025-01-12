@@ -1,0 +1,84 @@
+.game-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #e0e0e0;
+  border: 2px solid #333;
+  margin: 5px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.square:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #555;
+}
+
+.restart-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.restart-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .status {
+    font-size: 1.2em;
+  }
+
+  .restart-button {
+    font-size: 1em;
+  }
+}

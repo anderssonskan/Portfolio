@@ -1,0 +1,70 @@
+* {
+  -webkit-user-select: none; /* För WebKit-baserade webbläsare som Chrome och Safari */
+  -moz-user-select: none;    /* För Firefox */
+  -ms-user-select: none;     /* För äldre versioner av Internet Explorer */
+  user-select: none;         /* Standard */
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #FDA, #fc9595);
+  color: #333;
+  text-align: center;
+  user-select: none;
+}
+
+.content-container {
+  min-height: 900px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.logo {
+  height: 150px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffffbf;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #ffffffbf;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 2rem;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  font-size: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #fd8181;
+}
+
+.memory, .tictactoe {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
