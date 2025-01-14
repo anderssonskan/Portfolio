@@ -1,53 +1,64 @@
 .wrapper {
-    display: flex;
-    user-select: none;
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-auto-flow: column;
+    grid-auto-columns: 100px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-.github, 
+.git,
 .html,
 .react,
 .javascript,
 .typescript,
 .figma,
-.ux {
+.ux,
+.css,
+.node,
+.aurelia {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Gör att barnen staplas vertikalt */
-    padding: 2rem;
+    flex-direction: column;
     border-radius: 10px;
-    margin: auto;
-    width: 100px; /* Bredd för att centrera innehållet snyggt */
-    height: auto;
+    width: 100px;
+    height: 100px;
     text-align: center;
 }
 
-.github-content {
-    display: flex;
-    flex-direction: column; /* Stapla bild och text vertikalt */
-    align-items: center; /* Centrera innehållet horisontellt */
-}
-
-.github-img, 
+.git-img,
 .html-img,
 .react-img,
 .javascript-img,
 .typescript-img,
 .figma-img,
-.ux-img {
+.ux-img,
+.css-img,
+.node-img,
+.aurelia-img {
     width: 70px;
     height: 70px;
-    user-select: none;
+    pointer-events: none;
 }
 
-.github-text,
+.git-text,
 .html-text,
 .react-text,
 .javascript-text,
 .typescript-text,
 .figma-text,
-.ux-text {
+.ux-text,
+.css-text,
+.node-text,
+.aurelia-text {
     margin-top: 10px;
-    font-size: 20px; 
+    font-size: 20px;
     color: black;
+}
+
+.myName {
+    padding: 60px;
 }

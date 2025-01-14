@@ -6,6 +6,7 @@ import Tictactoe from './comps/Tictactoe/Tictactoe';
 import Portfolio from './comps/Portfolio';
 import Header from './comps/Header';
 import Footer from './comps/Footer';
+import Timeline from './comps/Timeline';
 
 // App Component
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <div className='content-container'>
           <Routes>
             <Route path="/" element={<Portfolio />} />
+            <Route path="/" element={<Timeline />} />
             <Route path="/memory" element={<Memory />} />
             <Route path="/tictactoe" element={<Tictactoe />} />
           </Routes>
