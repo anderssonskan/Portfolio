@@ -4,9 +4,9 @@ import Timeline from './Timeline';
 function Portfolio() {
     return (
         <>
-            <div className='myName'>
-                <h1>EMMA ANDERSSON, <br />FRONTEND DEVELOPER</h1>
-                <p></p>
+            <div className='start'>
+                <h1 className='myName'>EMMA ANDERSSON, <br />FRONTEND DEVELOPER</h1>
+                <p className='fastInfo'><strong>Snabbfakta om mig:</strong><br></br> Jag målar/illustrerar och säljer original och posters via mitt egna företag. Jag är ledamot i min brf. Jag är en bra kompis och tackar sällan nej till AW!</p>
             </div>
             <div>
                 <Timeline />
@@ -54,6 +54,10 @@ function Portfolio() {
                 <div className="aurelia">
                     <img className='aurelia-img' src="src/assets/aurelia-svgrepo-com (1).svg" alt="aureliaLogo" />
                     <p className='aurelia-text'>Aurelia</p>
+                </div>
+                <div className="devops">
+                    <img className='devops-img' src="src/assets/azure-devops-svgrepo-com.png" alt="devopsLogo" />
+                    <p className='devops-text'>Azure DevOps</p>
                 </div>
             </div>
         </>

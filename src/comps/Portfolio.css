@@ -7,6 +7,8 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .git,
@@ -18,7 +20,8 @@
 .ux,
 .css,
 .node,
-.aurelia {
+.aurelia,
+.devops {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +41,8 @@
 .ux-img,
 .css-img,
 .node-img,
-.aurelia-img {
+.aurelia-img,
+.devops-img {
     width: 70px;
     height: 70px;
     pointer-events: none;
@@ -53,12 +57,41 @@
 .ux-text,
 .css-text,
 .node-text,
-.aurelia-text {
+.aurelia-text,
+.devops-text {
     margin-top: 10px;
     font-size: 20px;
     color: black;
 }
 
 .myName {
-    padding: 60px;
+    font-size: 70px;
+    font-family: "Winky Rough", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(146, 80, 91);
+    padding-bottom: 40px;
+}
+
+.start {
+    margin-bottom: 80px;
+}
+
+.skills-title {
+    margin-top: 250px;
+    font-size: 25px;
+    font-family: "Winky Rough", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(146, 80, 91);
+}
+
+.fastInfo {
+    width: 650px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #ffffff4a;
+    padding:40px;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 25px;
+    border-radius: 25px;
+
 }

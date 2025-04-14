@@ -2,8 +2,13 @@ import React from "react";
 import './Timeline.css';
 
 function Timeline() {
-    return(
+    return (
         <div class="timeline">
+            <div className="timeline-header">
+                <h5>Utbildning</h5>
+                <img className="sunflower" src="src/assets/sunflower.png" alt="Flower" />
+                <h5>Erfarenhet</h5>
+            </div>
             <div class="container right">
                 <div class="content">
                     <h2>Easy Digital Meeting Services AB</h2>
@@ -43,6 +48,7 @@ function Timeline() {
                     <h3>Gamleby folkhögskola <br />2014-2016 Gamleby</h3>
                 </div>
             </div>
+            <img className="plant-pot" src="src/assets/plant-pot.png" alt="plant-pot" />
         </div>
     )
 }
