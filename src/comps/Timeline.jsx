@@ -1,12 +1,14 @@
 import React from "react";
 import './Timeline.css';
+import sunflower from '../assets/sunflower.png';
+import plant from '../assets/plant-pot.png';
 
 function Timeline() {
     return (
         <div class="timeline">
             <div className="timeline-header">
                 <h5>Utbildning</h5>
-                <img className="sunflower" src="src/assets/sunflower.png" alt="Flower" />
+                <img className="sunflower" src={sunflower} alt="Flower" />
                 <h5>Erfarenhet</h5>
             </div>
             <div class="container right">
@@ -48,7 +50,7 @@ function Timeline() {
                     <h3>Gamleby folkhögskola <br />2014-2016 Gamleby</h3>
                 </div>
             </div>
-            <img className="plant-pot" src="src/assets/plant-pot.png" alt="plant-pot" />
+            <img className="plant-pot" src={plant} alt="plant-pot" />
         </div>
     )
 }

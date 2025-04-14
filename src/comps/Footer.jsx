@@ -1,6 +1,9 @@
 import React from "react";
 import '../App.css'
 import { useState } from "react";
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github-142-svgrepo-com (2).svg';
+import email from '../assets/email-svgrepo-com.svg';
 
 export default function Footer() {
   const [copied, setCopied] = useState("");
@@ -24,7 +27,7 @@ export default function Footer() {
         >
           <img
             className="contact-logo"
-            src="src/assets/linkedin.png"
+            src={linkedin}
             alt="LinkedIn"
           />
           <span className="tooltip">LinkedIn</span>
@@ -39,7 +42,7 @@ export default function Footer() {
         >
           <img
             className="contact-logo"
-            src="src/assets/github-142-svgrepo-com (2).svg"
+            src={github}
             alt="GitHub"
           />
           <span className="tooltip">GitHub</span>
@@ -52,7 +55,7 @@ export default function Footer() {
         >
           <img
             className="contact-logo"
-            src="src/assets/email-svgrepo-com.svg"
+            src={email}
             alt="Email"
           />
           <span className="tooltip">anderssons-emma@hotmail.com</span>
