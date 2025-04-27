@@ -65,33 +65,115 @@
 }
 
 .myName {
-    font-size: 70px;
-    font-family: "Winky Rough", sans-serif;
+    font-size: 50px;
+    font-family: "Limelight", sans-serif;
     color: white;
-    text-shadow: 2px 2px 4px rgb(146, 80, 91);
-    padding-bottom: 40px;
+    text-shadow: 2px 2px 4px #520dc2;
+}
+
+.utb-erf{
+    font-family: "Limelight", sans-serif;
 }
 
 .start {
-    margin-bottom: 80px;
+    margin-bottom: 200px;
 }
 
 .skills-title {
     margin-top: 250px;
     font-size: 25px;
-    font-family: "Winky Rough", sans-serif;
+    font-family: "Limelight", sans-serif;
     color: white;
-    text-shadow: 2px 2px 4px rgb(146, 80, 91);
+    text-shadow: 2px 2px 4px #520dc2;
+
 }
 
 .fastInfo {
-    width: 650px;
-    height: 300px;
+    height: auto;
+    width: 100vw;
     margin: 0 auto;
     background-color: #ffffff4a;
     padding:40px;
     font-family: "Winky Rough", sans-serif;
     font-size: 25px;
-    border-radius: 25px;
-
 }
+
+#fastInfo {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper {
+      grid-template-rows: repeat(4, auto);
+      gap: 15px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+  
+    /*ikoner och text mindre*/
+    .git,
+    .html,
+    .react,
+    .javascript,
+    .typescript,
+    .figma,
+    .ux,
+    .css,
+    .node,
+    .aurelia,
+    .devops {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .git-img,
+    .html-img,
+    .react-img,
+    .javascript-img,
+    .typescript-img,
+    .figma-img,
+    .ux-img,
+    .css-img,
+    .node-img,
+    .aurelia-img,
+    .devops-img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .git-text,
+    .html-text,
+    .react-text,
+    .javascript-text,
+    .typescript-text,
+    .figma-text,
+    .ux-text,
+    .css-text,
+    .node-text,
+    .aurelia-text,
+    .devops-text {
+      font-size: 14px;
+    }
+  
+    .myName {
+      font-size: 30px; 
+    }
+  
+    .skills-title {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  
+    .fastInfo {
+      padding: 20px;
+      font-size: 18px; 
+    }
+  
+    #fastInfo {
+      font-size: 16px;
+      width: 90%; 
+    }
+  }

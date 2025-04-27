@@ -1,15 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Timeline.css';
 import sunflower from '../assets/sunflower.png';
 import plant from '../assets/plant-pot.png';
 
 function Timeline() {
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.5
+        });
+
+        const containers = document.querySelectorAll('.container');
+        containers.forEach(container => {
+            observer.observe(container);
+        });
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
+
     return (
         <div class="timeline">
             <div className="timeline-header">
-                <h5>Utbildning</h5>
+                <h5 id="utb-erf">Utbildning</h5>
                 <img className="sunflower" src={sunflower} alt="Flower" />
-                <h5>Erfarenhet</h5>
+                <h5 id="utb-erf">Erfarenhet</h5>
+                <h5 id="utb-erf-mobil">Utbildning & Erfarenhet</h5>
             </div>
             <div class="container right">
                 <div class="content">

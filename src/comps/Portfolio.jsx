@@ -17,12 +17,14 @@ function Portfolio() {
     return (
         <>
             <div className='start'>
+                <div className='fastInfo'>
                 <h1 className='myName'>EMMA ANDERSSON, <br />FRONTEND DEVELOPER</h1>
-                <p className='fastInfo'>
-                    <strong>Snabbfakta om mig:</strong><br />
-                    Jag målar/illustrerar och säljer original och posters via mitt egna företag.
-                    Jag är ledamot i min brf. Jag är en bra kompis och tackar sällan nej till AW!
-                </p>
+                    <p id="fastInfo">Jag kan bidra med positiv energi, har ett bra driv med en smula djävlar anamma 
+                        och ett öga för detaljer.</p>
+                        <br />
+                    <p id="fastInfo"><strong>Snabbfakta om mig: </strong>Jag målar/illustrerar och säljer original och posters via mitt egna företag. 
+                    Jag är ledamot i min brf. Jag är en bra kompis och tackar sällan nej till AW! </p>
+                </div>
             </div>
 
             <div>
