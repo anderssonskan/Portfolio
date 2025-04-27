@@ -178,6 +178,12 @@ body {
     left: 0%;
   }
 
+  .sunflower {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
   .timeline::after,
   .right::before,
   .left::before,
