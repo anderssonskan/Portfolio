@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+  justify-content: center;
+}
+
+#utb-erf {
+  font-family: "Limelight", sans-serif;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: green;
+  border: black 4px solid;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #ffffffbf;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #ffffffbf;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #ffffffbf;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #ffffffbf transparent transparent;
+}
+
+.right::after {
+  left: -13px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: #ffffffbf;
+  position: relative;
+  border-radius: 6px;
+
+}
+
+.sunflower,
+.plant-pot {
+  height: 250px;
+}
+
+.sunflower {
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: sway 5s infinite ease-in-out;
+  z-index: 2;
+}
+
+.plant-pot {
+  height: 200px;
+  position: absolute;
+  bottom: -160px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  font-family: "Winky Rough", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #520dc2;
+}
+
+@keyframes sway {
+
+  0%,
+  100% {
+    transform: translateX(-50%) rotate(-3deg);
+  }
+
+  50% {
+    transform: translateX(-50%) rotate(3deg);
+  }
+}
+
+#utb-erf {
+  font-family: "Limelight", sans-serif;
+  text-shadow: 2px 2px 4px #520dc2;
+}
+
+#utb-erf-mobil {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #utb-erf-mobil {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    font-family: "Limelight", sans-serif;
+    text-shadow: 2px 2px 4px #520dc2;
+    font-size: 30px;
+  }
+
+  #utb-erf {
+    display: none;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container::before {
+    left: 60px;
+    border: medium solid #ffffffbf;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ffffffbf transparent transparent;
+  }
+
+  .right {
+    left: 0%;
+  }
+
+  .sunflower {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .timeline::after,
+  .right::before,
+  .left::before,
+  .plant-pot {
+    display: none;
+  }
+
+  body {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 10px;
+    justify-content: center;
+  }
+}

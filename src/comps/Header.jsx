@@ -3,16 +3,20 @@ import '../App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Header() {
-    return(
+    return (
         <div>
             <header className="header">
-                <img className="logo" src="../public/EA/android-chrome-192x192.png" alt="logo" />
+<<<<<<< HEAD
+                <img className="logo" src="../public/EH/android-chrome-192x192.png" alt="logo" />
+=======
+                <img className="logo" src="/EA/android-chrome-192x192.png" alt="logo" />
+>>>>>>> beebc076c8bb152bf69f4c937ecd1e52e5fa2d47
                 <nav>
-                <ul className="nav-links">
-                <li><Link to="/">Emma</Link></li>
-                <li><Link to="/memory">Memory</Link></li>
-                <li><Link to="/tictactoe">TicTacToe</Link></li>
-                </ul>
+                    <ul className="nav-links">
+                        <li><Link to="/">Emma</Link></li>
+                        <li><Link to="/memory">Memory</Link></li>
+                        <li><Link to="/tictactoe">TicTacToe</Link></li>
+                    </ul>
                 </nav>
             </header>
         </div>
