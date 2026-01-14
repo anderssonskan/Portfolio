@@ -6,11 +6,7 @@ function Header() {
     return (
         <div>
             <header className="header">
-<<<<<<< HEAD
                 <img className="logo" src="../public/EH/android-chrome-192x192.png" alt="logo" />
-=======
-                <img className="logo" src="/EA/android-chrome-192x192.png" alt="logo" />
->>>>>>> beebc076c8bb152bf69f4c937ecd1e52e5fa2d47
                 <nav>
                     <ul className="nav-links">
                         <li><Link to="/">Emma</Link></li>

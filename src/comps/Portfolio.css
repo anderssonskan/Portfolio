@@ -9,6 +9,16 @@
     gap: 30px;
     padding-top: 30px;
     padding-bottom: 70px;
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-auto-flow: column;
+    grid-auto-columns: 100px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .git,
@@ -26,7 +36,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-direction: column;
     border-radius: 10px;
+    width: 100px;
+    height: 100px;
     width: 100px;
     height: 100px;
     text-align: center;
@@ -50,6 +63,7 @@
     width: 70px;
     height: 70px;
     pointer-events: none;
+    pointer-events: none;
 }
 
 .git-text,
@@ -68,6 +82,7 @@
 .illustrator-text,
 .photoshop-text {
     margin-top: 10px;
+    font-size: 20px;
     font-size: 20px;
     color: black;
 }
@@ -185,3 +200,39 @@
       width: 90%; 
     }
   }
+  
+.myName {
+    font-size: 50px;
+    font-family: "Limelight", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #520dc2;
+}
+
+.utb-erf{
+    font-family: "Limelight", sans-serif;
+}
+
+.skills-title {
+    margin-top: 250px;
+    font-size: 25px;
+    font-family: "Limelight", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #520dc2;
+
+}
+
+.fastInfo {
+    height: auto;
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #ffffff4a;
+    padding:40px;
+    font-family: "Winky Rough", sans-serif;
+    font-size: 25px;
+}
+
+#fastInfo {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 50%;
+}

@@ -17,19 +17,8 @@ function Portfolio() {
     return (
         <>
             <div className='start'>
-<<<<<<< HEAD
                 <h1 className='myName'>EMMA HULTSTEN, <br />FRONTEND DEVELOPER</h1>
                 <p className='fastInfo'><strong>Snabbfakta om mig:</strong><br></br> Jag målar/illustrerar och säljer original och posters via mitt egna företag. Jag är ledamot i min brf. Jag är en bra kompis och tackar sällan nej till AW!</p>
-=======
-                <div className='fastInfo'>
-                <h1 className='myName'>EMMA ANDERSSON, <br />FRONTEND DEVELOPER</h1>
-                    <p id="fastInfo">Jag kan bidra med positiv energi, har ett bra driv med en smula djävlar anamma 
-                        och ett öga för detaljer.</p>
-                        <br />
-                    <p id="fastInfo"><strong>Snabbfakta om mig: </strong>Jag målar/illustrerar och säljer original och posters via mitt egna företag. 
-                    Jag är ledamot i min brf. Jag är en bra kompis och tackar sällan nej till AW! </p>
-                </div>
->>>>>>> beebc076c8bb152bf69f4c937ecd1e52e5fa2d47
             </div>
 
             <div>
@@ -39,6 +28,7 @@ function Portfolio() {
             <div className='skills-title'>
                 <h2>Skills</h2>
             </div>
+
 
             <div className="wrapper">
                 <div className="photoshop">
@@ -107,3 +97,4 @@ function Portfolio() {
 }
 
 export default Portfolio;
+
