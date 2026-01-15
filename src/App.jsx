@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Memory from './comps/Memory/Memory';
 import Tictactoe from './comps/Tictactoe/Tictactoe';
+import Konst from './comps/Konst/Konst';
 import Portfolio from './comps/Portfolio';
 import Header from './comps/Header';
 import Footer from './comps/Footer';
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Portfolio />} />
             <Route path="/" element={<Timeline />} />
+            <Route path="/konst" element={<Konst />} />
             <Route path="/memory" element={<Memory />} />
             <Route path="/tictactoe" element={<Tictactoe />} />
           </Routes>

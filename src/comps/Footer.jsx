@@ -50,7 +50,7 @@ export default function Footer() {
 
         {/* E-post */}
         <button
-          onClick={() => handleCopy("anderssons-emma@hotmail.com", "E-post kopierad!")}
+          onClick={() => handleCopy("emma.hultsten@gmail.com", "E-post kopierad!")}
           className="contact-logo-wrapper"
         >
           <img
@@ -58,7 +58,7 @@ export default function Footer() {
             src={email}
             alt="Email"
           />
-          <span className="tooltip">anderssons-emma@hotmail.com</span>
+          <span className="tooltip">emma.hultsten@gmail.com</span>
         </button>
       </div>
 

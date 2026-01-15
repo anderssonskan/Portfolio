@@ -20,6 +20,7 @@ body::-webkit-scrollbar {
   pointer-events: none;
   pointer-events: none;
   height: 150px;
+  width: 150px;
 }
 
 .header {

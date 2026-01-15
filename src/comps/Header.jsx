@@ -10,6 +10,7 @@ function Header() {
                 <nav>
                     <ul className="nav-links">
                         <li><Link to="/">Emma</Link></li>
+                        <li><Link to="/konst">Konst</Link></li>
                         <li><Link to="/memory">Memory</Link></li>
                         <li><Link to="/tictactoe">TicTacToe</Link></li>
                     </ul>

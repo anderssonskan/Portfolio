@@ -1,24 +1,24 @@
 .wrapper {
-    display: grid;
-    grid-template-rows: repeat(2, 100px);
-    grid-auto-flow: column;
-    grid-auto-columns: 100px;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-top: 30px;
-    padding-bottom: 70px;
-    display: grid;
-    grid-template-rows: repeat(2, 100px);
-    grid-auto-flow: column;
-    grid-auto-columns: 100px;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding-top: 30px;
-    padding-bottom: 70px;
+  display: grid;
+  grid-template-rows: repeat(2, 100px);
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  display: grid;
+  grid-template-rows: repeat(2, 100px);
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
 
 .git,
@@ -32,17 +32,17 @@
 .node,
 .aurelia,
 .devops {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-direction: column;
-    border-radius: 10px;
-    width: 100px;
-    height: 100px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
 }
 
 .git-img,
@@ -60,10 +60,10 @@
 .salesforce-img,
 .illustrator-img,
 .photoshop-img {
-    width: 70px;
-    height: 70px;
-    pointer-events: none;
-    pointer-events: none;
+  width: 70px;
+  height: 70px;
+  pointer-events: none;
+  pointer-events: none;
 }
 
 .git-text,
@@ -81,50 +81,46 @@
 .salesforce-text,
 .illustrator-text,
 .photoshop-text {
-    margin-top: 10px;
-    font-size: 20px;
-    font-size: 20px;
-    color: black;
+  margin-top: 10px;
+  font-size: 20px;
+  font-size: 20px;
+  color: black;
 }
 
 .myName {
-    font-size: 50px;
-    font-family: "Limelight", sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px #520dc2;
+  font-size: 50px;
+  font-family: "Limelight", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #520dc2;
 }
 
 .utb-erf{
-    font-family: "Limelight", sans-serif;
+  font-family: "Limelight", sans-serif;
 }
 
 .start {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .skills-title {
-    margin-top: 250px;
-    font-size: 25px;
-    font-family: "Limelight", sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px #520dc2;
-
+  margin-top: 250px;
+  font-size: 25px;
+  font-family: "Limelight", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #520dc2;
 }
 
 .fastInfo {
-    height: auto;
-    width: 100vw;
-    margin: 0 auto;
-    background-color: #ffffff4a;
-    padding:40px;
-    font-family: "Winky Rough", sans-serif;
-    font-size: 25px;
-}
-
-#fastInfo {
-    font-size: 18px;
-    margin: 0 auto;
-    width: 50%;
+  font-family: "Winky Rough", sans-serif;
+  font-size: 20px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  min-width: auto;
+  gap: 20px;              /* avstånd mellan bild och text */
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -213,7 +209,6 @@
 }
 
 .skills-title {
-    margin-top: 250px;
     font-size: 25px;
     font-family: "Limelight", sans-serif;
     color: white;
