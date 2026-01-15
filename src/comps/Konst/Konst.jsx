@@ -14,6 +14,7 @@ import lopare from "../../assets/Löpare_vit.png";
 import plugg from "../../assets/Löpare_vit.png";
 import sengangare from "../../assets/Sengångare_vit.png";
 import tiger from "../../assets/Tiger_vit.png";
+import marknad from "../../assets/marknad.png";
 
 const images = [
   { src: fon, title: "Inte som jag tänkt mig" },
@@ -52,7 +53,7 @@ export default function Konst() {
       <div className="marknad-presentation">
         <img
           className="marknad-img"
-          src="/src/assets/marknad.png"
+          src= {marknad}
           alt="Marknad"
           draggable="false"
         />
