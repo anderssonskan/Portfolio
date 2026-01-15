@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #FDA, #520dc2);
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #fda, #520dc2);
   color: #333;
   text-align: center;
   user-select: none;
@@ -15,9 +15,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-
 .logo {
-  pointer-events: none;
   pointer-events: none;
   height: 150px;
   width: 150px;
@@ -190,7 +188,8 @@ body::-webkit-scrollbar {
   color: #520dc2;
 }
 
-.memory, .tictactoe {
+.memory,
+.tictactoe {
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
@@ -199,14 +198,12 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 600px) {
-  
-
   .header {
     flex-direction: column;
     padding: 1rem 1rem;
     text-align: center;
   }
-  
+
   .contact-logo {
     width: 35px;
     height: 35px;
@@ -218,7 +215,8 @@ body::-webkit-scrollbar {
     font-size: 20px;
   }
 
-  .memory, .tictactoe {
+  .memory,
+  .tictactoe {
     max-width: 90%;
     margin: 1rem auto;
   }
@@ -233,14 +231,12 @@ body::-webkit-scrollbar {
   }
 }
 @media screen and (max-width: 600px) {
-  
-
   .header {
     flex-direction: column;
     padding: 1rem 1rem;
     text-align: center;
   }
-  
+
   .contact-logo {
     width: 35px;
     height: 35px;
@@ -252,7 +248,8 @@ body::-webkit-scrollbar {
     font-size: 20px;
   }
 
-  .memory, .tictactoe {
+  .memory,
+  .tictactoe {
     max-width: 90%;
     margin: 1rem auto;
   }

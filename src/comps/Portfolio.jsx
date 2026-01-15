@@ -12,6 +12,10 @@ import cssIcon from '../assets/css3-02-svgrepo-com (2).svg';
 import nodeIcon from '../assets/node-svgrepo-com (1).svg';
 import aureliaIcon from '../assets/aurelia-svgrepo-com (1).svg';
 import devopsIcon from '../assets/azure-devops-svgrepo-com.png';
+import photoshopIcon from '../assets/icons8-photoshop-100.png';
+import illustratorIcon from '../assets/icons8-illustrator-100.png';
+import salesforceIcon from '../assets/icons8-salesforce-100.png';
+import slackIcon from '../assets/icons8-slack-100.png';
 
 function Portfolio() {
     return (
@@ -32,19 +36,19 @@ function Portfolio() {
 
             <div className="wrapper">
                 <div className="photoshop">
-                    <img className='photoshop-img' src="src/assets/icons8-photoshop-100.png" alt="PhotoshopLogo" />
+                    <img className='photoshop-img' src={photoshopIcon} alt="PhotoshopLogo" />
                     <p className='photoshop-text'>Photoshop</p>
                 </div>
                 <div className="illustrator">
-                    <img className='illustrator-img' src="src/assets/icons8-illustrator-100.png" alt="IllustratorLogo" />
+                    <img className='illustrator-img' src={illustratorIcon} alt="IllustratorLogo" />
                     <p className='illustrator-text'>Illustrator</p>
                 </div>
                 <div className="salesforce">
-                    <img className='salesforce-img' src="src/assets/icons8-salesforce-100.png" alt="SalesforceLogo" />
+                    <img className='salesforce-img' src={salesforceIcon} alt="SalesforceLogo" />
                     <p className='salesforce-text'>Salesforce</p>
                 </div>
                 <div className="slack">
-                    <img className='slack-img' src="src/assets/icons8-slack-100.png" alt="SlackLogo" />
+                    <img className='slack-img' src={slackIcon} alt="SlackLogo" />
                     <p className='slack-text'>Slack</p>
                 </div>
                 <div className="git">
