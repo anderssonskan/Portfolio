@@ -38,7 +38,7 @@ export default function Konst() {
     return (
       <>
         <div className='marknad-presentation'>
-            <img className='marknad-img' src="/src/assets/marknad.png" alt="Marknad" />
+            <img className='marknad-img' src="/src/assets/marknad.png" alt="Marknad" draggable="false" />
             <div className='marknad-text'>
             <h3>Välkommen hit</h3>
             <p>
